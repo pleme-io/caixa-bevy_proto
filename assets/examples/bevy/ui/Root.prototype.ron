@@ -1,0 +1,13 @@
+(
+  name: "Root",
+  schematics: {
+    "bevy_proto::custom::NodeBundle": (
+      style: (
+        width: Percent(100.0),
+        height: Percent(100.0),
+        justify_content: SpaceBetween,
+      )
+    )
+  },
+  children: ["Left", "Right", "Blue", "Red"]
+)
